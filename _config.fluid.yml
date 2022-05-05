@@ -1,0 +1,44 @@
+navbar:
+  blog_title: 乐子的技术笔记
+
+index:
+  slogan:
+    enable: true
+    text: 我是一个生活在最底层的小虾米,记录一些我认知所欠缺的东西
+  # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
+  # Path of Banner image, can be a relative path or an absolute path, the same on other pages
+  banner_img: https://cdn.jsdelivr.net/gh/yingle1991/resources@main/api/blog/tec/index/index_main.jpeg
+
+  # 头图高度，屏幕百分比
+  # Height ratio of banner image
+  # Available: 0 - 100
+  banner_img_height: 100
+
+  # 头图黑色蒙版的不透明度，available: 0 - 1.0， 1 是完全不透明
+  # Opacity of the banner mask, 1.0 is completely opaque
+  # Available: 0 - 1.0
+  banner_mask_alpha: 0.3
+
+post:
+  comments:
+    enable: true
+    type: valine
+
+valine:
+  appId: hMghLTSt94m951lwhsPE6r1v-gzGzoHsz
+  appKey: 1zFOJNayAk9eocO9tdhbqNoF
+  placeholder: 开始评论 ^_^ 
+
+#---------------------------
+# 页脚
+# Footer
+#---------------------------
+footer:
+  # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
+  # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
+  content: '
+    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo1</span></a>
+    <i class="iconfont icon-love"></i>
+    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+  '
+
